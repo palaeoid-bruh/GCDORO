@@ -1,6 +1,6 @@
-欢迎使用本测试器 
+##欢迎使用本测试器 
 
-该项目的原作者是kirliavc @/github，希望各位能对其进行点星赞同。
+该项目的原作者是[kirliavc@github](https://github.com/kirliavc/test_simulator)，希望各位能对其进行点星赞同。
 
 基本结构沿用原作，改造了各处细节以适应本游戏。
 
