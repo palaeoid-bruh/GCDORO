@@ -25,7 +25,7 @@ function getOne(i,j){
             for(var r=0;r<srms.length;r=r+1){
                 imgurl="card/"+srms[r]+".PNG";
                 $("#r_"+i).attr("src",imgurl);
-                $("#srsu").append("<img class=\"img-thumbnail\" src=\""+imgurl+"\"></img> ");
+                $("#0").append("<img class=\"img-thumbnail\" src=\""+imgurl+"\"></img> ");//bug所在，#srsu改成#0
             }
             return;
         }
