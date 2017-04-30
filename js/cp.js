@@ -11,8 +11,7 @@ function buyQuartz(){
         return true;
     }
         
-    var buy=confirm("あなたのCPが足りない，CPが足りません、13000円を支払って11457CPを購入しますか？
-？");
+    var buy=confirm("あなたのCPが足りない，CPが足りません、13000円を支払って11457CPを購入しますか？");
     if(buy){
         quartz+=11457;
         money+=13000;
