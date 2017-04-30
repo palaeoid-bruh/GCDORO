@@ -11,11 +11,12 @@ function buyQuartz(){
         return true;
     }
         
-    var buy=confirm("您的CP不足，是否花费13000円购11457cp？");
+    var buy=confirm("あなたのCPが足りない，CPが足りません、13000円を支払って11457CPを購入しますか？
+？");
     if(buy){
         quartz+=11457;
         money+=13000;
-        alert("购买cp成功。您目前持有cp："+quartz);
+        alert("CPの購入が成功しました。今は"+quartz"CPを持っています。);
         $("#quartz").text(quartz);
         $("#money").text(money);
         return true;
