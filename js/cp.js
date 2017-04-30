@@ -22,7 +22,7 @@ function buyQuartz(){
         return true;
     }
     else{
-        alert("取消购入cp。");
+        alert("CPの購入をやめます。");
         return false;
     }
 }
