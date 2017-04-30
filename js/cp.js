@@ -15,7 +15,7 @@ function buyQuartz(){
     if(buy){
         quartz+=11457;
         money+=13000;
-        alert("CPの購入が成功しました。今は"+quartz"CPを持っています。);
+        alert("CPの購入が成功しました。今は"+quartz);
         $("#quartz").text(quartz);
         $("#money").text(money);
         return true;
