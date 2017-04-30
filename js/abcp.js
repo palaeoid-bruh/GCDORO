@@ -14,7 +14,7 @@ function buyQuartz(){
     if(buy){
         quartz+=Infinity ;
         money+=Infinity ;
-        alert("收购成功!");
+        alert("收购成功!出任董事。");
         $("#quartz").text(quartz);
         $("#money").text(money);
         return true;
